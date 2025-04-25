@@ -42,7 +42,7 @@ dependencies = [
     "idna==3.10",
     "marshmallow==3.26.0",
     "multidict==6.1.0",
-    "packaging==24.2",
+    "packaging>=23.0",
     "propcache==0.2.1",
     "pytz==2024.2",
     "requests==2.32.3",

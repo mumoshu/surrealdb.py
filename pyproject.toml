@@ -29,6 +29,7 @@ classifiers = [
     "Topic :: Software Development",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+requires-python = ">=3.9"
 dependencies = [
     "aiohappyeyeballs==2.4.4",
     "aiohttp==3.11.11",

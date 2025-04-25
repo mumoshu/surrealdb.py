@@ -2,6 +2,10 @@
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[tool.poetry]
+repository = "https://github.com/surrealdb/surrealdb.py"
+documentation = "https://surrealdb.com/docs/sdk/python"
+
 [project]
 name = "surrealdb"
 version = "1.0.3"
@@ -9,8 +13,6 @@ description = "SurrealDB python client"
 readme = "README.md"
 authors = [{ name = "SurrealDB" }]
 license = "Apache-2.0"
-repository = "https://github.com/surrealdb/surrealdb.py"
-documentation = "https://surrealdb.com/docs/sdk/python"
 keywords = ["SurrealDB", "Database"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
